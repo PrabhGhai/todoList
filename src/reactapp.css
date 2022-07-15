@@ -1,0 +1,54 @@
+.main{
+    background-color: black;
+    width:100vw;
+    min-height: 100vh;
+    
+}
+
+
+.logo{
+    font-size: 50px;
+    color:orangered
+}
+h1{
+    color:white
+}
+input{
+    outline:none;
+    border:none;
+    height: 25px;
+    width:300px
+}
+button{
+    border:none;
+    background-color: orangered;
+    color:white
+}
+.add{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0 20px 0
+    
+
+}
+button:hover{
+    transition: all,0.2s;
+    color:black;
+    
+}
+.dataMain{
+    display:flex;
+    justify-content: center;
+}
+.data{
+    display:flex;
+   flex: start;
+    align-items: center;
+    width:500px;
+    height:40px;
+    
+}
+p{
+    font-size: 20px;
+}
